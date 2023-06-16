@@ -1,0 +1,37 @@
+.party {
+    text-align: center;
+    color: var(--theme-color);
+}
+
+.party__img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.partyDescription__container {
+    padding: 1em;
+}
+
+.party__heading {
+    font-size: 1.9em;
+    margin-bottom: 1em;
+}
+
+.party__subHeading {
+    margin-bottom: 2em;
+}
+
+.party__text {
+    margin-bottom: 2em;
+}
+
+.party__btn {
+    font-family: "mainFont";
+    border-radius: 0.4em;
+    padding: 1em 5em;
+    margin-bottom: 2em;
+    color: var(--theme-color);
+    border: solid var(--theme-color) 0.2em;
+    background-color: var(--text-main-color);
+}

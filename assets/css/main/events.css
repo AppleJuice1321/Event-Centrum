@@ -1,0 +1,23 @@
+.events {
+    padding: 1em;
+    color: var(--text-main-color);
+    background-image: url("/assets/img/images/card-background.jpg");
+}
+
+.events__description {
+    text-align: center;
+}
+
+.event__heading {
+    font-weight: lighter;
+    font-size: 1.9em;
+    margin-bottom: 1em;
+}
+
+.event__subHeading {
+    margin-bottom: 2em;
+}
+
+.event__text {
+    margin-bottom: 2em;
+}

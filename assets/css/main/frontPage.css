@@ -1,0 +1,28 @@
+.frontPage {
+    text-align: center;
+    padding: 1em;
+    color: var(--theme-color);
+}
+
+.frontPage__heading {
+    font-size: 1.9em;
+    margin-bottom: 1em;
+}
+
+.frontPage__subHeading {
+    margin-bottom: 2em;
+}
+
+.frontPage__text {
+    margin-bottom: 2em;
+}
+
+.frontPage__btn {
+    font-family: "mainFont";
+    border-radius: 0.4em;
+    padding: 1em 5em;
+    margin-bottom: 5em;
+    border: solid var(--theme-color) 0.2em;
+    color: var(--theme-color);
+    background-color: var(--text-main-color);
+}

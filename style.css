@@ -1,0 +1,34 @@
+/* code splitting */
+@import url("./assets/css/header/header.css");
+@import url("./assets/css/header/logo.css");
+@import url("./assets/css/header/navbar.css");
+@import url("./assets/css/main/about.css");
+@import url("./assets/css/main/team.css");
+@import url("./assets/css/main/event-cards.css");
+@import url("./assets/css/main/frontPage.css");
+@import url("./assets/css/main/party.css");
+@import url("./assets/css/main/events.css");
+@import url("./assets/css/main/cards.css");
+@import url("./assets/css/footer/footer.css");
+@import url("./assets/css/footer/contacts.css");
+@import url("./assets/css/footer/contacts-info.css");
+@import url("./assets/css/footer/form.css");
+@import url("./assets/css/variables.css");
+
+/* remove unecessary space */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "mainFont";
+    src: url("./assets/fonts/Font_Awesome/Font\ Awesome\ 5\ Free-Solid-900.otf");
+    src: url("./assets/fonts/Open_Sans/OpenSans-Regular.ttf");
+}
+
+body {
+    font-family: "mainFont";
+    font-weight: lighter;
+}

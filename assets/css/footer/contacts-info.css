@@ -1,0 +1,32 @@
+.contacts-info__section {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.adress__container, .phone__container {
+    display: flex;
+    gap: 1em;
+}
+
+.contacts-info__ul {
+    list-style: none;
+}
+
+.adress, .phone, .mail {
+    display: flex;
+    flex-direction: column;
+}
+
+.material-symbols-outlined {
+    color: var(--icon-footer-color);
+}
+
+.contacts-info__heading {
+    text-decoration: none;
+    color: var(--text-main-color);
+}
+
+.contacts-info__infoText {
+    color: var(--second-text-color);
+}

@@ -1,0 +1,43 @@
+.intro__section {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: flex;
+    height: 40em;
+    color: var(--text-main-color);
+    background-image: url("/assets/img/images/campfire-cooking.jpg");
+}
+
+.intro__article {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 1.5em;
+    width: 35em;
+}
+
+.intro__article > * {
+    font-weight: lighter;
+}
+
+.intro__heading {
+    font-size: 3.5em;
+}
+
+/* .intro__subHeading {
+
+} */
+
+.intro__text {
+    font-size: 0.8em;
+    margin: 0 8em;
+}
+
+.intro__btn {
+    background: transparent;
+    border: none;
+    margin-top: 2em;
+    font-size: 1em;
+    color: var(--text-main-color);
+}

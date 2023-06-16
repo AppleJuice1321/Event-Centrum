@@ -1,0 +1,42 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    padding: 1em 1em 1em 1em;
+    border-radius: 0.6em;
+    background-color: var(--footer-second-color);
+}
+
+.form__heading {
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+.name, .email, .message {
+    background: transparent;
+    border-radius: 0.4em;
+    padding: 0.8em;
+    max-width: 40em;
+    border: solid rgba(255, 255, 255, 0.2);
+}
+
+.message {
+    text-align: top;
+    padding-bottom: 10em;
+}
+
+.form__btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 0.4em;
+    padding: 0.5em 0;
+    gap: 0.5em;
+    color: var(--text-main-color);
+    background-color: var(--theme-color);
+}
+
+.form__btn .material-symbols-outlined {
+    color: white;
+}

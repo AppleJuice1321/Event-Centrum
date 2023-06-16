@@ -1,0 +1,22 @@
+:root {
+    /* overall */
+    --theme-color: #3B4C5C;
+    --section-color: #75D1FF;
+    --footer-color: #262F38;
+    --footer-second-color: #29343d;
+    
+    /* text */
+    --text-main-color: #FFFFFF;
+    --text-section-color: #8392A0;
+    --second-text-color: #B8C9D8;
+    --mobile-card-text-color: #FFD600;
+
+    /* clickables */
+    --button-card-color: #E74C3C;
+    --link-hover-color: #F3F4F5;
+
+    /* icons */
+    --icon-section-color: #3B4C5C;
+    --icon-footer-color: #82dc82;
+
+}

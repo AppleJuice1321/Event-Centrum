@@ -1,0 +1,49 @@
+.about {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.about__section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 100%;
+    gap: 1.5em;
+    padding: 2em;
+    color: var(--text-main-color);
+    background-color: var(--section-color);
+}
+
+.about__heading {
+    font-size: 3em;
+    font-weight: lighter;
+}
+
+.about__text {
+
+}
+
+.score__section {
+    width: 50%;
+
+}
+
+.score__inner__container {
+    display: flex;
+}
+
+.score__inner__container i .material-symbols-outlined {
+    border-radius: 50%;
+    padding: 2em;
+    color: var(--theme-color);
+    background-color: var(--link-hover-color);
+}
+
+.score__ul {
+    list-style: none;
+}
+
+.score__item {
+    text-decoration: none;
+}

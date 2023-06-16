@@ -1,0 +1,24 @@
+/* .navbar {
+
+} */
+
+.navbar__menu {
+    display: flex;
+    justify-content: space-between;
+    gap: 2em;
+    padding-bottom: 1em;
+}
+
+.navbar__list {
+    list-style: none;
+}
+
+.navbar__link {
+    text-decoration: none;
+    padding-bottom: 0.5em;
+    color: var(--link-hover-color);
+}
+
+.navbar__link:hover {
+    border-bottom: solid var(--link-hover-color) 0.5em;
+}
